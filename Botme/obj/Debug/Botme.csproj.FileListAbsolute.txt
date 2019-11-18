@@ -1,0 +1,15 @@
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Botme.exe.config
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Botme.exe
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Botme.pdb
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Guna.UI.dll
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\MetroSet.UI.dll
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.csprojAssemblyReference.cache
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.Form1.resources
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.Properties.Resources.resources
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.csproj.GenerateResource.cache
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.csproj.CoreCompileInputs.cache
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.csproj.CopyComplete
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.exe
+C:\Users\R_230_ROG\source\repos\Botme\Botme\obj\Debug\Botme.pdb
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Newtonsoft.Json.dll
+C:\Users\R_230_ROG\source\repos\Botme\Botme\bin\Debug\Newtonsoft.Json.xml
