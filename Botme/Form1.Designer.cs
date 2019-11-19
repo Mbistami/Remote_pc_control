@@ -31,11 +31,11 @@
             this.components = new System.ComponentModel.Container();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipsePanel1 = new Guna.UI.WinForms.GunaElipsePanel();
+            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaTextBox1 = new Guna.UI.WinForms.GunaTextBox();
             this.gunaButton1 = new Guna.UI.WinForms.GunaButton();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.gunaElipsePanel1.SuspendLayout();
             this.SuspendLayout();
@@ -56,6 +56,29 @@
             this.gunaElipsePanel1.Name = "gunaElipsePanel1";
             this.gunaElipsePanel1.Size = new System.Drawing.Size(235, 95);
             this.gunaElipsePanel1.TabIndex = 0;
+            // 
+            // gunaLabel3
+            // 
+            this.gunaLabel3.AutoSize = true;
+            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel3.ForeColor = System.Drawing.Color.Orange;
+            this.gunaLabel3.Location = new System.Drawing.Point(81, 69);
+            this.gunaLabel3.Name = "gunaLabel3";
+            this.gunaLabel3.Size = new System.Drawing.Size(64, 15);
+            this.gunaLabel3.TabIndex = 3;
+            this.gunaLabel3.Text = "Your Email";
+            this.gunaLabel3.Click += new System.EventHandler(this.gunaLabel3_Click);
+            // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.gunaLabel2.Location = new System.Drawing.Point(3, 69);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(80, 15);
+            this.gunaLabel2.TabIndex = 2;
+            this.gunaLabel2.Text = "Botme Email :";
             // 
             // gunaLabel1
             // 
@@ -110,29 +133,6 @@
             this.gunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.gunaButton1.Click += new System.EventHandler(this.gunaButton1_Click);
             // 
-            // gunaLabel2
-            // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.gunaLabel2.Location = new System.Drawing.Point(3, 69);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(80, 15);
-            this.gunaLabel2.TabIndex = 2;
-            this.gunaLabel2.Text = "Botme Email :";
-            // 
-            // gunaLabel3
-            // 
-            this.gunaLabel3.AutoSize = true;
-            this.gunaLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaLabel3.ForeColor = System.Drawing.Color.Orange;
-            this.gunaLabel3.Location = new System.Drawing.Point(81, 69);
-            this.gunaLabel3.Name = "gunaLabel3";
-            this.gunaLabel3.Size = new System.Drawing.Size(64, 15);
-            this.gunaLabel3.TabIndex = 3;
-            this.gunaLabel3.Text = "Your Email";
-            this.gunaLabel3.Click += new System.EventHandler(this.gunaLabel3_Click);
-            // 
             // timer1
             // 
             this.timer1.Interval = 5000;
@@ -150,6 +150,7 @@
             this.Name = "Form1";
             this.Text = "BotMe";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gunaElipsePanel1.ResumeLayout(false);
             this.gunaElipsePanel1.PerformLayout();
